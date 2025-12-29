@@ -6,23 +6,23 @@ class Zmx < Formula
 
   on_macos do
     on_arm do
-      url "https://zmx.sh/a/zmx-0.1.1-macos-aarch64.tar.gz"
-      sha256 "54fa55772dd6123bfb8ed02c0a106bc2e3566924438668b53faf017ec8435b5f"
+      url "https://zmx.sh/a/zmx-0.2.0-macos-aarch64.tar.gz"
+      sha256 "9c68c22e6e21677a786bfe0b249bb24dcd75baa5d6817050a8cfbfe07c4087b4"
     end
     on_intel do
-      url "https://zmx.sh/a/zmx-0.1.1-macos-x86_64.tar.gz"
-      sha256 "8450a70c1b60f5dad3f7cf18b996805afa3b7b8ed67d81ca67432ba2915c1734"
+      url "https://zmx.sh/a/zmx-0.2.0-macos-x86_64.tar.gz"
+      sha256 "ff40545a5ceba4dd019561580039e6fee3efa4cf641199e8d1c639609eef054b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://zmx.sh/a/zmx-0.1.1-linux-aarch64.tar.gz"
-      sha256 "e1eb631b8e1d056fa47ea9cca51021e7948744a5127b334e02ae7f127f6e8f7c"
+      url "https://zmx.sh/a/zmx-0.2.0-linux-aarch64.tar.gz"
+      sha256 "22110feff5a5e3f1c44f4c55b2beaef8f5200bfabc4d946a9dc836bc210e11e7"
     end
     on_intel do
-      url "https://zmx.sh/a/zmx-0.1.1-linux-x86_64.tar.gz"
-      sha256 "0404446843cbebf9e842a35d63e13582036be9f568012641e2dad890c0bbaf4b"
+      url "https://zmx.sh/a/zmx-0.2.0-linux-x86_64.tar.gz"
+      sha256 "3da72558e8106109b1cf5b47fb0522549afc0e4be1cab531857a8e45907deeea"
     end
   end
 
