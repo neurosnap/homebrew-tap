@@ -1,7 +1,7 @@
 class Zmx < Formula
   desc "Session persistence for terminal processes"
   homepage "https://github.com/neurosnap/zmx"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
