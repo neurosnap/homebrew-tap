@@ -28,6 +28,7 @@ class Zmx < Formula
 
   def install
     bin.install "zmx"
+    generate_completions_from_executable(bin/"zmx", "completions")
   end
 
   test do
