@@ -1,28 +1,28 @@
 class Zmx < Formula
-  desc "Session persistence for terminal processes"
+  desc "Session attach/detach for the terminal"
   homepage "https://github.com/neurosnap/zmx"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://zmx.sh/a/zmx-0.6.0-macos-aarch64.tar.gz"
-      sha256 "7f1e4d967d41dea0df76bc7c5dd0d5795e7e54fd657a5f0c74fbfb2c0699390e"
+      url "https://zmx.sh/a/zmx-0.7.0-macos-aarch64.tar.gz"
+      sha256 "a63d6f3edd6d4b38240f8f81513e60e35a898ca520211112d7bc67f610f1f3eb"
     end
     on_intel do
-      url "https://zmx.sh/a/zmx-0.6.0-macos-x86_64.tar.gz"
-      sha256 "576cf81cd7df5354a49f328d0f3c571d5cf601e257eb6fb794890c79c7fb713e"
+      url "https://zmx.sh/a/zmx-0.7.0-macos-x86_64.tar.gz"
+      sha256 "66c57e7963c84881266f9f3acfdb36945c340c016a57061948517f3b303ca7d3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://zmx.sh/a/zmx-0.6.0-linux-aarch64.tar.gz"
-      sha256 "dbbb3df7428bbe645cc26f34dd67b61b07953a8ce3daa6f3e501c49d392724f8"
+      url "https://zmx.sh/a/zmx-0.7.0-linux-aarch64.tar.gz"
+      sha256 "77599f66124694fae80bbb1d2fa0eafdb8c648b427a048cad90513ecf6136fc9"
     end
     on_intel do
-      url "https://zmx.sh/a/zmx-0.6.0-linux-x86_64.tar.gz"
-      sha256 "7ee4b12150dd0d736d271ba1cb06942244c10b857841a663517297ac65c720dd"
+      url "https://zmx.sh/a/zmx-0.7.0-linux-x86_64.tar.gz"
+      sha256 "8b8783d7b120c9ffd0acf4aee37969054dc0dfef3c4f3a4728d2efd35f2e97a0"
     end
   end
 
